@@ -13,7 +13,9 @@ constructor(private taskservice : TaskService){};
 
 ngOnInit(){
   return this.taskservice.getTasks().subscribe(((data:any)=> 
-    {this.tasks =data}));
- 
+    {this.tasks =data}
+));
+
 }
+
 }

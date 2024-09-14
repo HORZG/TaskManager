@@ -16,7 +16,7 @@ export class AddTaskComponent {
     Affectto : '',
     Deadline: '',
 
-    Description : ''
+   
   
   }
 
